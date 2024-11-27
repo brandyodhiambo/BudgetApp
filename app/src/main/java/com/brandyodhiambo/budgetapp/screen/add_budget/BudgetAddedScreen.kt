@@ -68,6 +68,7 @@ fun BudgetAddedScreenContent(
 ) {
     Scaffold(
         modifier = modifier,
+        containerColor = MaterialTheme.colorScheme.surfaceVariant,
         bottomBar = {
             Column(
                 modifier = Modifier

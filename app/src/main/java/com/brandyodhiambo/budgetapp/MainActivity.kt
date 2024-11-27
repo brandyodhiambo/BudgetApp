@@ -66,26 +66,6 @@ class MainActivity : ComponentActivity() {
                     floatingActionButtonPosition = FabPosition.Center,
                     contentWindowInsets = WindowInsets.navigationBars.only(WindowInsetsSides.Horizontal),
                     floatingActionButton = {
-                        /* FloatingActionButton(
-                             modifier = Modifier
-                                 .offset(y = 80.dp)
-                                 .size(56.dp),
-                             containerColor = MaterialTheme.colorScheme.primary,
-                             onClick = {
-                                 navController.navigate(Destinations.AddBudgetItem)
-                             },
-                             elevation = FloatingActionButtonDefaults.elevation(
-                                 defaultElevation = 0.dp,
-                             ),
-                             shape = CircleShape,
-                         ) {
-                             Icon(
-                                 imageVector = Icons.Filled.Add,
-                                 contentDescription = "Add",
-                                 tint = MaterialTheme.colorScheme.onPrimary,
-                                 modifier = Modifier.size(24.dp),
-                             )
-                         }*/
                         Image(
                             modifier = Modifier
                                 .offset(y = 80.dp)
