@@ -10,7 +10,7 @@ The app is built with a Model-View-ViewModel (MVVM) pattern which is a structura
 <img src="project/expen_screen.png" width="250" alt=""/> 
 
 ### Home Screen
-<img src="project/home_without_trans.png" width="250" alt=""/> <img src="project/home_with_transaction.png" width="250" alt=""/>
+<img src="project/home_without_trans.png" width="250" alt=""/> <img src="project/home_with_trans.png" width="250" alt=""/>
 
 ### Add Budget 
 <img src="project/add_transaction_screen.png" width="250" alt=""/>

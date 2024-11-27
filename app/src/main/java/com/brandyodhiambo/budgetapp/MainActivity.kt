@@ -146,8 +146,8 @@ class MainActivity : ComponentActivity() {
                 ) { innerPadding ->
                     AppNavHost(
                         modifier = Modifier
-                            .fillMaxSize()
-                            .padding(innerPadding),
+                            .fillMaxSize(),
+                            //.padding(innerPadding),
                         navController = navController
                     )
                 }
